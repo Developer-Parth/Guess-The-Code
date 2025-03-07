@@ -80,7 +80,7 @@ Hereâ€™s an example of how the game works:
 | `index-style.css` | CSS file for styling the game.                     |
 | `generateNew.js`  | JavaScript file for generating random codes.       |
 | `interactions.js` | JavaScript file for handling user interactions.    |
-| `res/`            | Folder for additional resources (e.g., images).    |
+| `res/`            | Folder for additional resources (e.g., images, fonts).    |
 | `LICENSE`         | License file for the project.                      |
 
 ## Contributing
