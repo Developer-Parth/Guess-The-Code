@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,9 +12,6 @@
     <script type="text/javascript" src="interactions.js"></script>
 </head>
 
-
-
-
 <body onload="generateNew()">
     <!--Intro-->
     <div id="intro" class="intro">
@@ -24,16 +22,33 @@
     <!--Header-->
     <div class="header">
         <span id="headerLabel">CAN YOU CRACK THE CODE?</span>
-    </div>
 
+        <a href="https://github.com/Developer-Parth/Guess-The-Code">
+            <div class="frame">
+                <div class="center">
+                    <div class="circle">
+                        <div class="sky"></div>
+                        <div class="sun"></div>
+                        <div class="side-left"></div>
+                        <div class="side-right"></div>
+                        <div class="shadow"></div>
+                        <div class="ground"></div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
 
     <!--Lock-->
     <div class="lock-animation" id="lockAnimation">
         <div class="lock-base">
             <!--Enter Code-->
-            <input type="number" id="guess1" autofocus="autofocus" oninput="onCodeInput(1)" onkeydown="return event.keyCode !== 69" placeholder="0">
-            <input type="number" id="guess2" autofocus="autofocus" oninput="onCodeInput(2)" onkeydown="return event.keyCode !== 69" placeholder="0">
-            <input type="number" id="guess3" autofocus="autofocus" oninput="onCodeInput(3)" onkeydown="return event.keyCode !== 69" placeholder="0">
+            <input type="number" id="guess1" autofocus="autofocus" oninput="onCodeInput(1)"
+                onkeydown="return event.keyCode !== 69" placeholder="0">
+            <input type="number" id="guess2" autofocus="autofocus" oninput="onCodeInput(2)"
+                onkeydown="return event.keyCode !== 69" placeholder="0">
+            <input type="number" id="guess3" autofocus="autofocus" oninput="onCodeInput(3)"
+                onkeydown="return event.keyCode !== 69" placeholder="0">
         </div>
     </div>
 
@@ -50,7 +65,7 @@
             <section class="hint-top">
                 <span id="hint2">0 0 0</span>
             </section>
-            <span class="hint-text" style="color: #CCDB39">1  CORRECT AND<br />WELL PLACED</span>
+            <span class="hint-text" style="color: #CCDB39">1 CORRECT AND<br />WELL PLACED</span>
         </section>
 
         <section class="hint">
@@ -77,7 +92,7 @@
 
     <!--Continue Button-->
     <button onclick="generateNew()" id="continueButton" class="continue-button">Continue</button>
-    
+
     <!--Footer-->
     <footer class="footer">
         <span id="answerLabel" onclick="revealAnswer()">Reveal Answer</section>
@@ -85,4 +100,5 @@
 
 
 </body>
+
 </html>
