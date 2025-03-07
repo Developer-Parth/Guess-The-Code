@@ -30,10 +30,6 @@ Play this game live at <a href="https://guess-the-code-vert.vercel.app/">here</a
 - Responsive design for desktop and mobile users.
 - Easy to customize and extend.
 
-## Demo
-
-You can try the live version of the game [here](#). *(Not Available for now)*
-
 ## How to Play
 
 1. Open the game in your browser.
