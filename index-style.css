@@ -19,7 +19,7 @@ body {
 
 body {
     background: #000;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .frame {
