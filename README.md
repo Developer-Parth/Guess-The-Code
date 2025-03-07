@@ -17,7 +17,7 @@ Welcome to the **Guess The Code** game! This project is a fun and interactive br
 
 
 ## PLAY
-Play this game live at <a href="https://guess-the-code-vert.vercel.app/">here</a>.
+Play this game live at <a href="https://guess-the-code-developer-parths-projects.vercel.app/">here</a>.
 ## Introduction
 
 **Guess The Code** is designed to test your logical thinking and pattern recognition skills. The game generates a secret code, and players must guess it using feedback provided after each attempt.
