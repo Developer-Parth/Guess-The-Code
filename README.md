@@ -1,10 +1,9 @@
-
 # Guess The Code Game
 
 Welcome to the **Guess The Code** game! This project is a fun and interactive browser-based game where players attempt to guess a randomly generated code within a set number of attempts.
 
 ## Table of Contents
-
+- [PLAY](#PLAY)
 - [Introduction](#introduction)
 - [Features](#features)
 - [Demo](#demo)
@@ -16,6 +15,9 @@ Welcome to the **Guess The Code** game! This project is a fun and interactive br
 - [License](#license)
 - [Contact](#contact)
 
+
+## PLAY
+Play this game live at <a href="https://guess-the-code-vert.vercel.app/">here</a>.
 ## Introduction
 
 **Guess The Code** is designed to test your logical thinking and pattern recognition skills. The game generates a secret code, and players must guess it using feedback provided after each attempt.
